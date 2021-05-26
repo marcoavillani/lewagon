@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-size: cover;
+	font-size: 18px;
+}
+.top-container{
+	text-align: center;
+    background-image: url(https://149440935.v2.pressablecdn.com/wp-content/uploads/2019/10/business-man-writing-laptop-and-footage-073840848_prevstill.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+}
+.mid-container{
+	background-color: white;
+	margin: 60px auto;
+	width: 900px;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    margin: auto;
+}
+h3{
+    color: whitesmoke;
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.cards{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 16px;
+}
+.card{
+	background: white;
+	box-shadow: 0 0 16px grey;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+	flex-grow: 1;
+}
+.card img{
+
+	height: 180px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+}
+.footer{
+    background-color: #064420;
+    margin-bottom: 0;
+    height: 150px;
+    color: white;
+	padding-top: 40px;
+	margin: auto;
+}
+.footer p{
+	margin: 60px 30%;
+}
